@@ -20,3 +20,13 @@ Gallery itself will not need to track state!
 
 GalleryItem
 View: This will be a Boolean state variable that toggles the "detail" view of a given song.   
+
+App: This file will still be the core of our application, and it will now be the context provider for both the searchTerm and data variables.
+
+SearchBar: We will adapt our searchBar to access the searchTerm variable from context. Further, we will plan to adapt our search bar to use an uncontrolled form submittal!
+
+Gallery: This component will be simplified and will gain access to the data object from context.
+
+GalleryItem: This component will remain largely unchanged. With this refactor, this component will still accept props.
+
+reference repo https://github.com/HackerUSA-CE/RR-Music-Search/tree/part2
